@@ -1,4 +1,5 @@
+import style from "./style.module.css";
 export default function IDpage({ params }) {
   console.log(params.id);
-  return <div>Id : {params.id}</div>;
+  return <div className={style.color}>Id : {params.id}</div>;
 }
