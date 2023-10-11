@@ -1,9 +1,6 @@
-"use client";
 
-import { useState } from "react";
 
 const NewForm = () => {
-  const [state, setState] = useState("");
 
   return (
     <div>
